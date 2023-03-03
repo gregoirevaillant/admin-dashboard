@@ -14,8 +14,8 @@
 	<body>
 		<div class="page-wrapper">
 			<aside class="aside">
-				<div><img src="" alt="" /></div>
-				<nav>
+				<div><h1>Dashboard</h1></div>
+				<nav class="navigation">
 					<ul>
 						<li><i class="fa-solid fa-house icon"></i><a href="#">Home</a></li>
 						<li>
@@ -37,7 +37,7 @@
 						</li>
 					</ul>
 				</nav>
-				<nav>
+				<nav class="navigation">
 					<ul>
 						<li>
 							<i class="fa-solid fa-gear icon"></i><a href="#">Settings</a>
@@ -54,26 +54,36 @@
 				</nav>
 			</aside>
 			<header class="header">
-				<div>
-					<i class="fa-solid fa-search icon"></i>
-					<input type="text" />
-					<i class="fa-solid fa-bell icon"></i>
-					<i class="fa-solid fa-user icon"></i>
-					<span>Grégoire Vaillant</span>
+				<div class="headerTop">
+					<div class="headerTopLeft">
+						<i class="fa-solid fa-search icon"></i>
+						<input type="text" />
+					</div>
+					<div class="headerTopRight">
+						<i class="fa-solid fa-bell icon"></i>
+						<i class="fa-solid fa-user icon"></i>
+						<span>Grégoire Vaillant</span>
+					</div>
 				</div>
-				<div>
-					<i class="fa-solid fa-user icon"></i>
-					<span>Hi there,</span>
-					<span>Grégoire Vaillant (@groune)</span>
-					<button>New</button>
-					<button>Upload</button>
-					<button>Share</button>
+				<div class="headerBottom">
+					<div class="headerBottomLeft">
+						<i class="fa-solid fa-user icon"></i>
+						<div class="userInformation">
+							<span>Hi there,</span>
+							<h2>Grégoire Vaillant (@groune)</h2>
+						</div>
+					</div>
+					<div class="headerBottomLeft">
+						<button>New</button>
+						<button>Upload</button>
+						<button>Share</button>
+					</div>
 				</div>
 			</header>
 			<main class="main">
 				<div class="projects">
 					<h2>Your Projects</h2>
-					<div>
+					<div class="projectsWrapper">
 						<div class="project">
 							<div>
 								<h3>Super Cool Project</h3>
@@ -175,56 +185,46 @@
 				<div class="stuff">
 					<div>
 						<h2>Annoucement</h2>
-						<div>
+						<div class="annoucements">
 							<div class="annoucement">
 								<h3>Site Maintenance</h3>
 								<p>
 									Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-									fuga omnis qui, nisi consequatur voluptates fugit vitae neque,
-									atque voluptatibus accusantium inventore eum soluta sunt
-									consequuntur quos aliquam debitis perferendis.
+									fuga omnis qui, nisi
 								</p>
 							</div>
 							<div class="annoucement">
 								<h3>Site Maintenance</h3>
 								<p>
 									Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-									fuga omnis qui, nisi consequatur voluptates fugit vitae neque,
-									atque voluptatibus accusantium inventore eum soluta sunt
-									consequuntur quos aliquam debitis perferendis.
+									fuga omnis qui, nisi
 								</p>
 							</div>
 							<div class="annoucement">
 								<h3>Site Maintenance</h3>
 								<p>
 									Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-									fuga omnis qui, nisi consequatur voluptates fugit vitae neque,
-									atque voluptatibus accusantium inventore eum soluta sunt
-									consequuntur quos aliquam debitis perferendis.
+									fuga omnis qui, nisi
 								</p>
 							</div>
 						</div>
 					</div>
 					<div>
 						<h2>Trending</h2>
-						<div>
+						<div class="trends">
 							<div class="trend">
-								<img src="" alt="" />
 								<h3>@tegan</h3>
 								<span>World Peace Builder</span>
 							</div>
 							<div class="trend">
-								<img src="" alt="" />
 								<h3>@tegan</h3>
 								<span>World Peace Builder</span>
 							</div>
 							<div class="trend">
-								<img src="" alt="" />
 								<h3>@tegan</h3>
 								<span>World Peace Builder</span>
 							</div>
 							<div class="trend">
-								<img src="" alt="" />
 								<h3>@tegan</h3>
 								<span>World Peace Builder</span>
 							</div>
@@ -235,3 +235,4 @@
 		</div>
 	</body>
 </html>
+‍
