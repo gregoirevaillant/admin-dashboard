@@ -255,7 +255,7 @@ body {
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(3, 1fr);
 	background-color: #fff;
-	padding: 20px;
+
 	border-radius: 20px;
 }
 
